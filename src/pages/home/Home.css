@@ -1,0 +1,181 @@
+:root{
+    --background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    --fill:#A02279;
+    --text-color:#434343;
+    --white: #FFFFFF;
+    --black:#000000;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+
+    --transition: all 500ms;
+    --font-family: 'Red Rose', cursive;
+    --font-family-1: 'Montserrat', sans-serif;
+    --font-family-2: 'Saira Condensed', sans-serif;
+
+
+}
+
+
+.main__header{
+    width: 100vw;
+    height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.main__header-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.main__header-left{
+    margin-top: 2rem;
+}
+
+.main__header-left h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+.main__header-left p{
+    margin: 2rem 0 3.5rem;
+}
+
+
+.main__header-left h1 span{
+    color: var(--fill);
+    font-weight: 700;
+}
+
+.search__bar{
+    margin-top: 4rem;
+    /* background: var(--fill); */
+}
+
+.search__btn{
+    padding: 0.9rem 4rem!important;
+    border-radius: 0 0.6rem 0.6rem 0 !important;
+}
+
+.search__btn:hover{
+    background-color: #ebebeb !important;
+    border-color: transparent !important;
+    color: var(--fill) !important;
+}
+
+input{
+    border: 1px solid #dbdbdb;
+    padding: 0.9rem 0.8rem;
+    padding-right: 5rem;
+    border-radius: 0.6rem 0 0 0.6rem;
+}
+
+input::placeholder{
+    color: #dbdbdb;
+}
+
+
+.main__header-right{
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+
+  .header__img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    position: relative;
+  }
+.first__img, .second__img{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.first__img{
+    top: 6rem;
+    position: relative;
+}
+
+
+/* MetaCompany */
+.meta__company{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: var(--fill);
+    width: 100%;
+    color: var(--white);
+}
+
+.meta{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    margin: 0.3rem 0 0.2rem;
+}
+
+.meta h3{
+    font-family: var(--font-family-1) !important;
+    font-weight: 600;
+}
+
+.mbToken{
+    font-size: 1.5rem;
+
+}
+
+.metamask h3{
+    font-family: var(--font-family-2) !important;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+}
+
+.metamask{
+    gap: 0.5rem;
+}
+
+.opensea{
+    font-family: var(--font-family-1) !important;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+/* Adventures */
+.adventures__container{
+    margin-top: 4rem;
+}
+
+.adventures__container h2{
+    text-align: center;
+}
+
+.adventures__wrapper{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+
+
+
+
+/* NFTs */
+.nfts{
+    background: var(--fill)
+}
+
+
+
+
