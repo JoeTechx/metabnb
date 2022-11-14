@@ -134,6 +134,7 @@ img{
 
 .card span{
   color: var(--fill);
+  cursor: pointer;
 }
 
 .card .star{
@@ -141,6 +142,7 @@ img{
   gap: 0.5rem;
   align-items: center;
   margin: 0.4rem 0 0;
+  justify-content: flex-start;
 }
 
 

@@ -113,7 +113,7 @@ input::placeholder{
     justify-content: space-evenly;
     margin: auto;
     background-color: var(--fill);
-    width: 100%;
+    width: 100vw;
     color: var(--white);
 }
 
@@ -173,7 +173,56 @@ input::placeholder{
 
 /* NFTs */
 .nfts{
-    background: var(--fill)
+    background: var(--fill);
+    margin-top: 3rem;
+    width: 100vw;
+    position: relative;
+}
+
+
+.nfts__container{
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap: 12%;
+    position: relative;
+    place-items: center;
+    margin: auto;
+}
+
+
+.nfts__left h1, .nfts__left p{
+ color: var(--white);
+}
+.nfts__left p{
+    margin: 2rem 0.3rem 2.4rem;
+}
+.nfts__right{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ place-items: center;
+ position: relative;
+ margin: auto;
+ /* top: 5rem; */
+}
+
+
+.nft__image-1 {
+    position: relative;
+    top: 4rem;
+    left: 13rem;
+}
+.nft__image-3 {
+    position: relative;
+    top: 15.8rem;
+    width: 20rem;
+    right: 6.39rem;
+    z-index: 1;
+}
+.nft__image-2 {
+    position: relative;
+    top: -4rem;
+    width: 21rem;
+    left: 1em;
 }
 
 
