@@ -225,6 +225,89 @@ input::placeholder{
     left: 1em;
 }
 
+/* Footer */
+
+.footer{
+background: #000000;
+color: var(--white);
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.LSC{
+    margin: 6rem 0 2rem;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+
+
+.footer__logo-svg{
+    margin-bottom: 5rem; 
+}
+
+.footer__socials-icon{
+    display: flex;
+    align-items:center;
+    gap: 2rem;
+    margin-bottom: 3rem; 
+}
+
+.community, .places, .about__us{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 4rem 0 0;
+    gap: 1.4rem;
+}
+
+.footer__link{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.footer__copyright{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
