@@ -41,7 +41,9 @@ body {
     background: var(--background);
 }
 
-
+.width{
+  width: 100vw;
+}
 .container {
     width: var(--container-width-lg);
     max-width: 1920px;

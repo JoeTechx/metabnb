@@ -6,7 +6,7 @@ import MBtoken from "../Image/MBtoken.png"
 
 const MetaCompany = () => {
   return (
-    <section className='meta__company'>
+    <section className='meta__company width'>
         <div className="mbToken meta">
         <img src={MBtoken} alt="" />
         <h3>MBToken</h3>

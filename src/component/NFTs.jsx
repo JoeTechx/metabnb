@@ -4,7 +4,7 @@ import Image7 from "../Image/image 7.png"
 
 const NFTs = () => {
   return (
-    <section className="nfts">
+    <section className="nfts width">
       <div className="container nfts__container">
         <div className="nfts__left">
           <h1>Metabnb NFTs</h1>

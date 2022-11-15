@@ -26,7 +26,7 @@
 }
 
 .main__header-container{
-    height: 100%;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -54,13 +54,16 @@
     font-weight: 700;
 }
 
+.wallet__btn-header{
+    display: none;
+}
+
 .search__bar{
     margin-top: 4rem;
-    /* background: var(--fill); */
 }
 
 .search__btn{
-    padding: 0.9rem 4rem!important;
+    padding: 0.9rem 3rem!important;
     border-radius: 0 0.6rem 0.6rem 0 !important;
 }
 
@@ -73,7 +76,7 @@
 input{
     border: 1px solid #dbdbdb;
     padding: 0.9rem 0.8rem;
-    padding-right: 5rem;
+    padding-right: 3rem;
     border-radius: 0.6rem 0 0 0.6rem;
 }
 
@@ -110,10 +113,10 @@ input::placeholder{
 .meta__company{
     display: flex;
     align-items: center;
+    width: 100vw;
     justify-content: space-evenly;
     margin: auto;
     background-color: var(--fill);
-    width: 100vw;
     color: var(--white);
 }
 
@@ -174,6 +177,7 @@ input::placeholder{
 /* NFTs */
 .nfts{
     background: var(--fill);
+    margin:auto;
     margin-top: 3rem;
     width: 100vw;
     position: relative;
@@ -230,6 +234,7 @@ input::placeholder{
 .footer{
 background: #000000;
 color: var(--white);
+width: 100vw;
 }
 
 .footer__container {
@@ -278,12 +283,184 @@ color: var(--white);
     margin-top: 2rem;
 }
 
+/* media queries */
+
+@media screen and  (max-width: 1187px) {
+    .main__header-container {
+        height: 100vh;
+        gap: 3rem;
+    }
+
+    .header__img {
+        top: -4rem;
+    }
+}
+
+
+@media screen and  (max-width: 1187px) {
+    .main__header-container {
+        gap: 1rem;
+    }
+    .search__bar {
+        margin-top: 2rem;
+    }
+
+    input {
+    padding: 0.7rem 0.8rem;
+    padding-right: 2rem;
+}
+
+.search__btn {
+    padding: 0.7rem 2rem !important;
+}
+
+}
+
+
+@media screen and  (max-width: 1024px) {
+
+
+    .main__header-container {
+       display: flex;
+       flex-direction: column;
+       height: auto;
+    }
+
+    .main__header{
+        height: auto;
+    }
+
+
+    .main__header-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 6rem;
+    }
+
+    .main__header-right {
+        height: 70vh;
+    }
+
+    .header__img {
+        top: 0;
+    }
+
+    .meta__company{
+     margin-top: 5rem;
+    }
+
+    .container.adventures__container {
+        width: 95%;
+    }
+
+    .adventures__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+}
+ 
+.nfts__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.nfts__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+     }
+
+ .footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    place-items: center;
+    justify-items: flex-start;
+}
+}
+
+@media screen and  (max-width: 768px) {
+    .wallet__btn-header{
+        display: flex ;
+    }
+
+    .meta h3 {
+        font-size: 1rem;
+    }
+
+    .adventures__wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .nfts__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    
+    .nfts__right{
+        left: 4rem;
+       }
+   
+   
+   .nft__image-1 {
+       top: 2rem;
+       left: 5rem;
+   }
+   .nft__image-3 {
+    top: 10.3rem;
+    width: 15rem;
+    right: 6.39rem;
+}
+   .nft__image-2 {
+       top: -4rem;
+       width: 15rem;
+       left: -3em;
+   }
+
+   .footer__container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+    .LSC{
+        align-items: center;
+    }
+
+    .footer__link{
+        align-items: center;
+    }
+    .community, .places, .about__us {
+        align-items: center;
+    }
+
+    .about__us{
+        margin-bottom: 4rem;
+    }
+}
 
 
 
+@media screen and  (max-width: 500px) {
 
+    .container.adventures__container {
+        width: 80%;
+    }
 
+    .adventures__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
+    .nfts__right {
+        left: 1rem;
+    }
+}
 
 
 

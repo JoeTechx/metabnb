@@ -7,7 +7,7 @@ import { places } from '../data'
 import { aboutUs } from '../data'
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className='footer width'>
         <div className="container footer__container">
             {
                 LSC.map(({id, Social1, Social2, Social3}) => {

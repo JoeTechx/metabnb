@@ -15,13 +15,13 @@ nav {
   height: 5rem;
   width: 100vw;
   background-color: var(--white);
-  /* box-shadow: -1rem 1rem 5rem rgb(135 125 125 / 8%); */
   display: grid;
   place-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
+  box-shadow: 0rem 2rem 5rem rgba(156, 152, 152, 0.205);
 }
 
 .logo {
@@ -127,6 +127,14 @@ nav {
   .hide__Nav {
     display: none;
   }
+  .wallet__btn {
+    /* display: none; */
+    margin-left: 18rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
   .wallet__btn {
     display: none;
   }

@@ -5,7 +5,7 @@ import Image4 from '../Image/image 4.png'
 
 const Header = () => {
   return (
-    <header className="main__header">
+    <header className="main__header width">
       <div className="container main__header-container">
         <div className="main__header-left">
           <h1>
@@ -17,6 +17,11 @@ const Header = () => {
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
           </p>
+          <div className='wallet__btn-header'>
+          <button className="nav__btn btn lg">
+                Connect Wallet
+            </button>
+            </div>
           <div className="search__bar">
             <input type="text" name="search" placeholder="search for location" className="search__input" required/>
             <button className="search__btn btn lg">
