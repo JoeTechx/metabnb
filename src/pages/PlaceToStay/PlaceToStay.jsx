@@ -1,8 +1,11 @@
-import React from 'react'
 
+import Places from "../../component/Places"
+import "./PlaceToStay.css"
 const PlaceToStay = () => {
   return (
-    <div>PlaceToStay</div>
+    <>
+   <Places/>
+    </>
   )
 }
 

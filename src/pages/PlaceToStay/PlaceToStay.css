@@ -1,0 +1,40 @@
+.places__to-stay{
+    width: 100vw;
+    height: auto;
+}
+
+.places__container{
+    margin-top: 9rem;
+}
+
+.place__filter{
+    display:grid;
+    grid-template-columns:repeat(9, 1fr);
+    margin: auto;
+    margin-right: 4rem;
+    margin-left: -1rem;
+    align-items: center;
+}
+
+
+.filter{
+    background: transparent;
+}
+
+.filter:nth-child(9){
+    border: 1px solid #cecece;
+    display: flex;
+    color: #767676;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius:0.4rem; 
+}
+
+.places__wrapper{
+    margin-bottom: 4rem;
+}
+
+
+
+
