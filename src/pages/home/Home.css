@@ -397,6 +397,19 @@ font-size:0.89rem;
 }
 
 
+@media screen and  (max-width: 1108px) {
+    .nfts__right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        position: relative;
+        /* margin: auto; */
+        top: 2rem;
+        left: -9rem;
+        width: inherit;
+    }
+
+}
 @media screen and  (max-width: 1187px) {
     .main__header-container {
         gap: 1rem;
@@ -473,7 +486,11 @@ font-size:0.89rem;
     text-align: center;
     margin-top: 5rem;
      }
-
+     .nfts__right {
+        left: -4rem;
+        width: inherit;
+        top: -2rem;
+    }
  .footer__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -505,9 +522,10 @@ font-size:0.89rem;
     }
 
     
-    .nfts__right{
-        left: 4rem;
-       }
+    .nfts__right {
+        left: 1rem;
+        width: inherit;
+    }
    
    
    .nft__image-1 {
@@ -515,15 +533,15 @@ font-size:0.89rem;
        left: 5rem;
    }
    .nft__image-3 {
-    top: 10.3rem;
-    width: 15rem;
-    right: 6.39rem;
+    top: 12.4rem;
+    width: 18rem;
+    right: 11.9rem;
 }
-   .nft__image-2 {
-       top: -4rem;
-       width: 15rem;
-       left: -3em;
-   }
+.nft__image-2 {
+    top: -6rem;
+    width: 18rem;
+    left: -5em;
+}
 
    .footer__container {
     grid-template-columns: 1fr;
@@ -547,6 +565,13 @@ font-size:0.89rem;
 
 
 
+@media screen and  (max-width: 652px) {
+
+    .nfts__right {
+        left: 0;
+        width: inherit;
+    }
+}
 @media screen and  (max-width: 500px) {
 
     .container.adventures__container {
@@ -558,7 +583,8 @@ font-size:0.89rem;
     }
 
     .nfts__right {
-        left: 1rem;
+        left: -2rem;
+        width: inherit;
     }
 }
 
