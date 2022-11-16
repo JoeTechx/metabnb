@@ -321,7 +321,6 @@ body.active-modal {
     min-width: 300px;
     margin: auto;
     width: 30%;
-    cursor: pointer;
 }
 
 .modal__metaBtn {
@@ -334,6 +333,7 @@ body.active-modal {
     background: #ebebeb;
     border-radius: 0.4rem;
     margin: 0.6rem 0;
+    cursor: pointer;
 }
 
 .modal-content h2{
