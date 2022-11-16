@@ -137,3 +137,14 @@ nav {
     margin-left: 13rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .wallet__btn {
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 368px) {
+
+  .wallet__btn {
+    margin-left: 6rem;
+  }
+}
