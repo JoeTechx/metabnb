@@ -2,8 +2,9 @@ import Image1 from '../Image/image 1.png'
 import Image2 from '../Image/image 2.png'
 import Image3 from '../Image/image 3.png'
 import Image4 from '../Image/image 4.png'
+import Modal from "./Modal"
 
-const Header = () => {
+const Header = ({ openModal }) => {
   return (
     <header className="main__header width">
       <div className="container main__header-container">
@@ -18,10 +19,11 @@ const Header = () => {
             comfort zone
           </p>
           <div className='wallet__btn-header'>
-          <button className="nav__btn btn lg">
+          <button className="nav__btn btn lg"  onClick={() => openModal(true)}>
                 Connect Wallet
             </button>
             </div>
+            <Modal/>
           <div className="search__bar">
             <input type="text" name="search" placeholder="search for location" className="search__input" required/>
             <button className="search__btn btn lg">
