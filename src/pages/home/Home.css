@@ -54,9 +54,9 @@
     font-weight: 700;
 }
 
-.wallet__btn-header{
+/* .wallet__btn-header{
     display: none;
-}
+} */
 
 .search__bar{
     margin-top: 4rem;
@@ -484,9 +484,9 @@ font-size:0.89rem;
 }
 
 @media screen and  (max-width: 768px) {
-    .wallet__btn-header{
+    /* .wallet__btn-header{
         display: flex ;
-    }
+    } */
 
     .meta h3 {
         font-size: 1rem;
