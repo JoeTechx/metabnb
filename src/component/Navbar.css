@@ -126,7 +126,6 @@ nav {
     display: none;
   }
   .wallet__btn {
-    /* display: none; */
     margin-left: 18rem;
   }
 }
@@ -134,17 +133,14 @@ nav {
 @media screen and (max-width: 768px) {
 
   .wallet__btn {
-    margin-left: 13rem;
+    margin-left: 13rem !important;
   }
 }
 @media screen and (max-width: 500px) {
   .wallet__btn {
-    margin-left: 10rem;
+    margin-left: 0 !important;
   }
 }
 @media screen and (max-width: 368px) {
 
-  .wallet__btn {
-    margin-left: 6rem;
-  }
 }

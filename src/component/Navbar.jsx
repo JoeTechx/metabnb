@@ -14,7 +14,11 @@ const Navbar = () => {
  
 
   const [isNavShowing, setIsNavShowing] = useState(false);
-
+if(modal){
+  document.body.classList.add('active-modal')
+}else{
+  document.body.classList.remove('active-modal')
+}
   return (
     <nav>
       <div className="container nav__container">

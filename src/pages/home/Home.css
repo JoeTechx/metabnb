@@ -18,7 +18,7 @@
 
 
 .main__header{
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 3rem);
     display: grid;
     place-items: center;
@@ -113,7 +113,7 @@ input::placeholder{
 .meta__company{
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     justify-content: space-evenly;
     margin: auto;
     background-color: var(--fill);
@@ -179,7 +179,7 @@ input::placeholder{
     background: var(--fill);
     margin:auto;
     margin-top: 3rem;
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
@@ -234,7 +234,7 @@ input::placeholder{
 .footer{
 background: #000000;
 color: var(--white);
-width: 100vw;
+width: 100%;
 }
 
 .footer__container {

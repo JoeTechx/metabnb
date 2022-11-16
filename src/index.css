@@ -37,13 +37,10 @@ body {
     font-family: var(--font-family);
     color: var(--text-color);
     line-height: 1.7;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background: var(--background);
 }
 
-.width{
-  width: 100vw;
-}
 .container {
     width: var(--container-width-lg);
     max-width: 1920px;
