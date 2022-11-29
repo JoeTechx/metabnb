@@ -8,17 +8,13 @@ import { MdOutlineClose } from "react-icons/md";
 import Modal from "./Modal";
 
 const Navbar = () => {
-
-
   const [modal, setModal] = useState(false);
- 
-
   const [isNavShowing, setIsNavShowing] = useState(false);
-if(modal){
-  document.body.classList.add('active-modal')
-}else{
-  document.body.classList.remove('active-modal')
-}
+  if (modal) {
+    document.body.classList.add("active-modal");
+  } else {
+    document.body.classList.remove("active-modal");
+  }
   return (
     <nav>
       <div className="container nav__container">
@@ -42,13 +38,16 @@ if(modal){
           })}
         </ul>
         <div className="wallet__btn">
-          <button className="nav__btn btn lg" onClick={() => {
-            setModal(true)
-          }}>
+          <button
+            className="nav__btn btn lg"
+            onClick={() => {
+              setModal(true);
+            }}
+          >
             Connect Wallet
           </button>
         </div>
-        { modal && <Modal closeModal={setModal} openModal={setModal}/>}
+        {modal && <Modal closeModal={setModal} openModal={setModal} />}
         <button
           className="nav__toggle-btn"
           onClick={() => setIsNavShowing((prev) => !prev)}

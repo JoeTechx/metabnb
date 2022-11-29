@@ -126,19 +126,19 @@ nav {
     display: none;
   }
   .wallet__btn {
-    margin-left: 18rem;
+    margin-left: 34%;
   }
 }
 
 @media screen and (max-width: 768px) {
 
   .wallet__btn {
-    margin-left: 13rem !important;
+    margin-left: 32% !important;
   }
 }
 @media screen and (max-width: 500px) {
   .container.nav__container {
-    width: 95% !important;
+    width: 90% !important;
 }
   .wallet__btn {
     margin-left: 3.5rem !important;

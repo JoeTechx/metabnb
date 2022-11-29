@@ -3,6 +3,7 @@ import { ImFacebook } from "react-icons/im";
 import { SiInstagram } from "react-icons/si";
 import { BsTwitter } from "react-icons/bs";
 import { BiSlider } from "react-icons/bi";
+import { BiAbacus } from "react-icons/bi";
 
 export const links = [
   {
@@ -469,7 +470,19 @@ export const placeHeader =[
     id: 8,
     name: "Farm",
   },
+  {
+    id: 9,
+    name: "Location",
+    icon: <BiSlider/>,
+  },
+]
 
+export const placeHeaderBtn =[
+  {
+    id: 1,
+    name: "Filter",
+    icon: <BiAbacus/>,
+  },
   {
     id: 9,
     name: "Location",

@@ -1,11 +1,12 @@
-import { placeHeader } from "../data"
-import { placeToStay } from "../data"
+import { placeToStay, placeHeader, placeHeaderBtn } from "../data"
+import { useState } from "react";
 import Card from "../UI/Card";
 const Places = () => {
+  const [isFilterShowing, setIsFilterShowing] = useState(false);
     return (
       <section className="places__to-stay">
      <div className="container places__container">
-        <div className="place__filter">
+        <div className={`place__filter ${isFilterShowing ? "show__nav" : "hide__Nav"}`}>
             {
                 placeHeader.map(({id, name, icon}) => {
                     return(
@@ -17,7 +18,18 @@ const Places = () => {
                 })
             }
         </div>
-
+<div className="MetaFilter">
+{
+                placeHeaderBtn.map(({id, name, icon}) => {
+                    return(
+                    <button className="btnFilter" key={id} onClick={() => setIsFilterShowing((prev) => !prev)}>
+                        {name}
+                        {icon}
+                    </button>
+                    )
+                })
+            }
+</div>
         <div className="adventures__wrapper places__wrapper">
           {placeToStay.map(
             ({
