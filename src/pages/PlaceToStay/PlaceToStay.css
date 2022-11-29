@@ -151,7 +151,11 @@
 }
 
 @media screen and (max-width: 400px) {
-    .place__filter {
-        top: 33%;
-      }
+  .place__filter {
+    top: 33%;
+  }
+
+  .wallet__btn {
+    margin-left: 0 !important;
+  }
 }
