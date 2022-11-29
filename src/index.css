@@ -90,11 +90,11 @@ img{
     cursor: pointer;
   }
 
-  /* .btn:hover{
+  .btn:hover{
     border-color: var(--fill);
     background-color: transparent;
     color: var(--fill);
-  } */
+  }
   .btn.lg{
     padding: 0.6rem 1.29rem;
     border-radius: 0.5rem;
@@ -108,11 +108,11 @@ img{
     border: 2px solid transparent;
   }
   
-  /* .btn.sm:hover{
+  .btn.sm:hover{
     background: transparent;
     color:  var(--white);
     border-color:  var(--white);
-  } */
+  }
 
 
 
@@ -127,9 +127,9 @@ img{
 }
 
 
-/* .card:hover{
+.card:hover{
   border-color: var(--fill);
-} */
+}
 
 .card span{
   color: var(--fill);

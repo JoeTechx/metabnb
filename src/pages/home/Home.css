@@ -67,11 +67,11 @@
     border-radius: 0 0.6rem 0.6rem 0 !important;
 }
 
-/* .search__btn:hover{
+.search__btn:hover{
     background-color: #ebebeb !important;
     border-color: transparent !important;
     color: var(--fill) !important;
-} */
+}
 
 input{
     border: 1px solid #dbdbdb;
@@ -586,6 +586,27 @@ font-size:0.89rem;
         left: -2rem;
         width: inherit;
     }
+}
+@media screen and  (max-width: 400px) {
+    .nft__image-1 {
+        top: 4rem;
+        left: 5rem;
+    }
+    .nft__image-3 {
+     top: 11.4rem;
+     width: 13rem;
+     right: 6.9rem;
+ }
+ .nft__image-2 {
+     top: -1.4rem;
+     width: 13rem;
+     left: -2.4rem;
+ }
+ .nfts__right {
+    left: -1rem;
+}
+
+
 }
 
 

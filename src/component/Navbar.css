@@ -137,10 +137,22 @@ nav {
   }
 }
 @media screen and (max-width: 500px) {
+  .container.nav__container {
+    width: 95%;
+}
   .wallet__btn {
-    margin-left: 0 !important;
+    margin-left: 3.5rem !important;
   }
 }
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 400px) {
 
+
+  .logo {
+    width: 7rem;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
+  
 }
