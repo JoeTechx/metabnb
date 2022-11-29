@@ -18,21 +18,21 @@ const Modal = ({ closeModal }) => {
             <div className="modal__btn-1">
               <button className="modal__metaBtn">
                 <div className="mask__img">
-                <div className="modal__meta-img">
-                  <img src={image66} alt="" />
-                </div>
-                <h5>Metamask</h5>
+                  <div className="modal__meta-img">
+                    <img src={image66} alt="" />
+                  </div>
+                  <h5>Metamask</h5>
                 </div>
                 <MdKeyboardArrowRight />
               </button>
             </div>
             <div className="modal__btn-2">
               <button className="modal__metaBtn">
-              <div className="mask__img">
-                <div className="modal__meta-img">
-                  <img src={image69} alt="" />
-                </div>
-                <h5>WalletConnect</h5>
+                <div className="mask__img">
+                  <div className="modal__meta-img">
+                    <img src={image69} alt="" />
+                  </div>
+                  <h5>WalletConnect</h5>
                 </div>
                 <MdKeyboardArrowRight />
               </button>

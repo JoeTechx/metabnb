@@ -131,7 +131,6 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-
   .wallet__btn {
     margin-left: 32% !important;
   }
@@ -139,20 +138,16 @@ nav {
 @media screen and (max-width: 500px) {
   .container.nav__container {
     width: 90% !important;
-}
+  }
   .wallet__btn {
     margin-left: 3.5rem !important;
   }
 }
 @media screen and (max-width: 400px) {
-
-
   .logo {
     width: 7rem !important;
-}
+  }
 }
 
 @media screen and (max-width: 1024px) {
-
-  
 }

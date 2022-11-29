@@ -1,7 +1,7 @@
-import Image1 from '../Image/image 1.png'
-import Image2 from '../Image/image 2.png'
-import Image3 from '../Image/image 3.png'
-import Image4 from '../Image/image 4.png'
+import Image1 from "../Image/image 1.png";
+import Image2 from "../Image/image 2.png";
+import Image3 from "../Image/image 3.png";
+import Image4 from "../Image/image 4.png";
 // import Modal from "./Modal"
 
 const Header = ({ openModal }) => {
@@ -25,23 +25,26 @@ const Header = ({ openModal }) => {
             </div>
             <Modal/> */}
           <div className="search__bar">
-            <input type="text" name="search" placeholder="search for location" className="search__input" required/>
-            <button className="search__btn btn lg">
-                Search
-            </button>
+            <input
+              type="text"
+              name="search"
+              placeholder="search for location"
+              className="search__input"
+              required
+            />
+            <button className="search__btn btn lg">Search</button>
           </div>
         </div>
         <div className="main__header-right">
-
           <div className="header__img">
-          <div className="first__img">
-            <img src={Image1} alt="" />
-            <img src={Image3} alt="" />
+            <div className="first__img">
+              <img src={Image1} alt="" />
+              <img src={Image3} alt="" />
             </div>
 
             <div className="second__img">
-            <img src={Image2} alt="" />
-            <img src={Image4} alt="" />
+              <img src={Image2} alt="" />
+              <img src={Image4} alt="" />
             </div>
           </div>
         </div>

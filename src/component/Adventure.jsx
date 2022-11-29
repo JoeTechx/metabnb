@@ -34,11 +34,11 @@ const Adventure = () => {
                     <small>{daysNumber}</small>
                   </div>
                   <div className="star">
-                   <span>{star1}</span> 
-                   <span>{star2}</span> 
-                   <span>{star3}</span> 
-                   <span>{star4}</span> 
-                   <span>{star5}</span> 
+                    <span>{star1}</span>
+                    <span>{star2}</span>
+                    <span>{star3}</span>
+                    <span>{star4}</span>
+                    <span>{star5}</span>
                   </div>
                 </Card>
               );

@@ -1,12 +1,11 @@
-
-import Places from "../../component/Places"
-import "./PlaceToStay.css"
+import Places from "../../component/Places";
+import "./PlaceToStay.css";
 const PlaceToStay = () => {
   return (
     <>
-   <Places/>
+      <Places />
     </>
-  )
-}
+  );
+};
 
-export default PlaceToStay
+export default PlaceToStay;

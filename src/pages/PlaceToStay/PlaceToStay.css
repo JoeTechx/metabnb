@@ -60,35 +60,33 @@
 }
 
 @media screen and (max-width: 768px) {
-    .place__filter{
-        display: flex;
-        position: absolute;
-        top: 28%;
-        left: 1rem;
-        flex-direction: column;
-        gap: 0;
-        perspective: 400px;
-    }
+  .place__filter {
+    display: flex;
+    position: absolute;
+    top: 28%;
+    left: 1rem;
+    flex-direction: column;
+    gap: 0;
+    perspective: 400px;
+  }
 
-    .filter{
-        height: 4rem;
-        width: 100%;
-        box-shadow: 0rem 2rem 5rem rgba(156, 152, 152, 0.205);
-        animation: navAnimation 600ms ease forwards;
-        transform: rotateX(90deg);
-        cursor: pointer;
-        opacity: 0;
-        transform-origin: top;
-        background-color: #ffffff;
-        color: #4c444e;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem 5rem 1rem 3rem;
-    }
-    
+  .filter {
+    box-shadow: 0rem 2rem 5rem rgba(156, 152, 152, 0.205);
+    animation: navAnimation 600ms ease forwards;
+    transform: rotateX(90deg);
+    cursor: pointer;
+    opacity: 0;
+    transform-origin: top;
+    background-color: #ffffff;
+    color: #4c444e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 5rem 1rem 3rem;
+  }
+
   .filter:nth-child(2) {
     animation-delay: 200ms;
   }
@@ -139,8 +137,8 @@
     color: #767676;
     padding: 0.5rem;
     border-radius: 0.4rem;
-        cursor: pointer;
-        background: transparent;
+    cursor: pointer;
+    background: transparent;
   }
 
   .show__nav {

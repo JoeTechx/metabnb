@@ -145,11 +145,7 @@ export const LSC = [
   },
 ];
 
-
-
-
 export const community = [
-
   {
     id: 1,
     name: "NFT",
@@ -170,7 +166,6 @@ export const community = [
     name: "Discord",
   },
 ];
-
 
 export const places = [
   {
@@ -216,8 +211,6 @@ export const aboutUs = [
     name: "Contact us",
   },
 ];
-
-
 
 export const placeToStay = [
   {
@@ -428,9 +421,9 @@ export const placeToStay = [
     star4: <HiStar />,
     star5: <HiStar />,
   },
-]
+];
 
-export const placeHeader =[
+export const placeHeader = [
   {
     id: 1,
     name: "Restaurant",
@@ -473,19 +466,19 @@ export const placeHeader =[
   {
     id: 9,
     name: "Location",
-    icon: <BiSlider/>,
+    icon: <BiSlider />,
   },
-]
+];
 
-export const placeHeaderBtn =[
+export const placeHeaderBtn = [
   {
     id: 1,
     name: "Filter",
-    icon: <BiAbacus/>,
+    icon: <BiAbacus />,
   },
   {
     id: 9,
     name: "Location",
-    icon: <BiSlider/>,
+    icon: <BiSlider />,
   },
-]
+];

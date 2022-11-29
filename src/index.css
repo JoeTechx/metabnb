@@ -1,23 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Red+Rose:wght@300;400;500;600;700&family=Saira+Condensed:wght@100;200;300;400&display=swap');
-:root{
-    --background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
-    --fill:#A02279;
-    --text-color:#434343;
-    --white: #FFFFFF;
-    --black:#000000;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Red+Rose:wght@300;400;500;600;700&family=Saira+Condensed:wght@100;200;300;400&display=swap");
+:root {
+  --background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  --fill: #a02279;
+  --text-color: #434343;
+  --white: #ffffff;
+  --black: #000000;
 
-    --container-width-lg: 80%;
-    --container-width-md: 90%;
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
 
-    --transition: all 500ms;
-   
-    --font-family: 'Red Rose', cursive;
-    --font-family-1: 'Montserrat', sans-serif;
-    --font-family-2: 'Saira Condensed', sans-serif;
+  --transition: all 500ms;
 
+  --font-family: "Red Rose", cursive;
+  --font-family-1: "Montserrat", sans-serif;
+  --font-family-2: "Saira Condensed", sans-serif;
 }
-
-
 
 /* Global Style */
 *,
@@ -34,19 +31,18 @@
 }
 /* General Styles */
 body {
-    font-family: var(--font-family);
-    color: var(--text-color);
-    line-height: 1.7;
-    /* overflow-x: hidden; */
-    background: var(--background);
+  font-family: var(--font-family);
+  color: var(--text-color);
+  line-height: 1.7;
+  /* overflow-x: hidden; */
+  background: var(--background);
 }
 
 .container {
-    width: var(--container-width-lg);
-    max-width: 1920px;
-    margin-inline: auto;
-  }
-
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
+}
 
 h1,
 h2,
@@ -58,67 +54,62 @@ h6 {
   color: var(--color-gray-100);
 }
 
-
-h1{
-    font-size: 3rem;
+h1 {
+  font-size: 3rem;
 }
 
-h2{
-    font-size: 2rem;
+h2 {
+  font-size: 2rem;
 }
 
-a{
-    color: var(--color-gray-100);
+a {
+  color: var(--color-gray-100);
 }
 
-img{
-    display: block;
-    object-fit: cover;
-    width: 100%;
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
 }
 
 .btn {
-    color: var(--white);
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0.7rem 1rem;
-    border-radius: 0.5rem;
-    background-color: var(--fill);
-    font-weight: 500;
-    transition: var(--transition);
-    border: 2px solid transparent;
-    cursor: pointer;
-  }
+  color: var(--white);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--fill);
+  font-weight: 500;
+  transition: var(--transition);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
 
-  .btn:hover{
-    border-color: var(--fill);
-    background-color: transparent;
-    color: var(--fill);
-  }
-  .btn.lg{
-    padding: 0.6rem 1.29rem;
-    border-radius: 0.5rem;
-  }
-  
-  .btn.sm{
-    font-size: 0.9rem;
-    background: var(--white);
-    color: var(--fill);
-    padding: 0.6rem 1rem;
-    border: 2px solid transparent;
-  }
-  
-  .btn.sm:hover{
-    background: transparent;
-    color:  var(--white);
-    border-color:  var(--white);
-  }
+.btn:hover {
+  border-color: var(--fill);
+  background-color: transparent;
+  color: var(--fill);
+}
+.btn.lg {
+  padding: 0.6rem 1.29rem;
+  border-radius: 0.5rem;
+}
 
+.btn.sm {
+  font-size: 0.9rem;
+  background: var(--white);
+  color: var(--fill);
+  padding: 0.6rem 1rem;
+  border: 2px solid transparent;
+}
 
+.btn.sm:hover {
+  background: transparent;
+  color: var(--white);
+  border-color: var(--white);
+}
 
-
-
-.card{
+.card {
   background: var(--background);
   border: 1px solid #dbdbdb;
   padding: 0.8rem;
@@ -126,17 +117,16 @@ img{
   transition: var(--transition);
 }
 
-
-.card:hover{
+.card:hover {
   border-color: var(--fill);
 }
 
-.card span{
+.card span {
   color: var(--fill);
   cursor: pointer;
 }
 
-.card .star{
+.card .star {
   display: flex;
   gap: 0.5rem;
   align-items: center;
@@ -144,21 +134,18 @@ img{
   justify-content: flex-start;
 }
 
-
-.card .TA, .DD{
+.card .TA,
+.DD {
   display: flex;
- align-items: center;
- justify-content: space-between;
- font-size: 0.79rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.79rem;
 }
 
-.card .TA{
+.card .TA {
   margin-top: 1rem;
 }
 
-.card .DD{
+.card .DD {
   margin: 0.4rem 0 0;
-
 }
-
-
